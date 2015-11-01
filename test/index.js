@@ -32,6 +32,9 @@ describe('copy-dir', function() {
 		};
 
 		swintYUIDoc(options, function(err, results) {
+			print(JSON.parse(fs.readFileSync(path.join(options.outDir, 'data.json'), 'utf-8')));
+			print(JSON.parse(fs.readFileSync(path.join(__dirname, '../test_result/data.json'), 'utf-8')));
+			
 			assert.deepEqual(
 				JSON.parse(fs.readFileSync(path.join(options.outDir, 'data.json'), 'utf-8')),
 				JSON.parse(fs.readFileSync(path.join(__dirname, '../test_result/data.json'), 'utf-8'))
