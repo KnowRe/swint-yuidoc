@@ -16,9 +16,7 @@
     "task"
   ],
   "author": "Kurt Cho <kivoloid@gmail.com>",
-  "contributors": [
-    "Wooseok Choi <pcparity@gmail.com>"
-  ],
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/KnowRe/swint-yuidoc/issues"
