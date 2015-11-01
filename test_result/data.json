@@ -1,0 +1,87 @@
+{
+    "project": {
+        "version": "42.0.0"
+    },
+    "files": {
+        "C:\\Users\\Kivol\\Documents\\GitHub\\swint\\swint-yuidoc\\test_case\\bar.js": {
+            "name": "C:\\Users\\Kivol\\Documents\\GitHub\\swint\\swint-yuidoc\\test_case\\bar.js",
+            "modules": {},
+            "classes": {},
+            "fors": {
+                "Bar": 1
+            },
+            "namespaces": {}
+        },
+        "C:\\Users\\Kivol\\Documents\\GitHub\\swint\\swint-yuidoc\\test_case\\foo.js": {
+            "name": "C:\\Users\\Kivol\\Documents\\GitHub\\swint\\swint-yuidoc\\test_case\\foo.js",
+            "modules": {},
+            "classes": {
+                "Foo": 1
+            },
+            "fors": {
+                "Bar": 1
+            },
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Bar": {
+            "name": "Bar",
+            "shortname": "Bar",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": []
+        },
+        "Foo": {
+            "name": "Foo",
+            "shortname": "Foo",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "C:\\Users\\Kivol\\Documents\\GitHub\\swint\\swint-yuidoc\\test_case\\foo.js",
+            "line": 1,
+            "description": "Describes class Foo\n\n\tnew Foo();",
+            "params": [
+                {
+                    "name": "baz",
+                    "description": "Defines `baz`",
+                    "type": "String",
+                    "optional": true,
+                    "optdefault": "'qux'"
+                }
+            ],
+            "return": {
+                "description": "nothing"
+            }
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "C:\\Users\\Kivol\\Documents\\GitHub\\swint\\swint-yuidoc\\test_case\\bar.js",
+            "line": 1,
+            "description": "Describes method Quux\n\n\tQuux();",
+            "itemtype": "method",
+            "name": "Quux",
+            "params": [
+                {
+                    "name": "baz",
+                    "description": "Defines `baz`",
+                    "type": "String",
+                    "optional": true,
+                    "optdefault": "'qux'"
+                }
+            ],
+            "return": {
+                "description": "nothing"
+            },
+            "class": "Bar"
+        }
+    ],
+    "warnings": []
+}

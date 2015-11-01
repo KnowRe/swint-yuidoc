@@ -1,0 +1,7 @@
+{
+  "name": "TestJS",
+  "description": "TestJS : Blahblah test JS",
+  "version": "42.0.0",
+  "private": true,
+  "dependencies": {}
+}
