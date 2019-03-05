@@ -1,6 +1,6 @@
 {
   "name": "swint-yuidoc",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "YUIDoc document generator for Swint batch task manager(swint-task)",
   "main": "lib/index.js",
   "scripts": {
